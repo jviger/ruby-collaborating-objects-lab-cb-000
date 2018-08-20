@@ -17,8 +17,7 @@ class Song
     song_split = filename.split(" - ")
     song = Song.new(song_split[1])
     song.artist = song_split[0]
-    self.songs << song
-    @@all_songs << song
+    @@all << song
     
   
 end
