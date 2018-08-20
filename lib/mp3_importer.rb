@@ -12,7 +12,7 @@ class MP3Importer
   #"db/mp3s/*.mp3"
   
   def files
-   Dir["db/mp3s/*.mp3"]
+   Dir["#{path}/*.mp3"]
   end
   
   def import 
