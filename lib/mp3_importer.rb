@@ -8,10 +8,10 @@ class MP3Importer
     @path = path
   end
   
-  Dir["/db/mp3s/*.mp3"]
+  
   
   def files
-  
+   Dir["/db/mp3s/*.mp3"]
   end
   
   def import 
