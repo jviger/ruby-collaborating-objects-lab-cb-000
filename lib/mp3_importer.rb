@@ -11,7 +11,7 @@ class MP3Importer
   
   
   def files
-   Dir["db/mp3s/*.mp3"]
+   Dir[path]
   end
   
   def import 
