@@ -13,7 +13,7 @@ class MP3Importer
   
   def files
    Dir["#{path}/*.mp3"].collect { |x| File.basename(x)}
-   end
+   
      
   end
   
