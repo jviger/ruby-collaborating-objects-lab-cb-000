@@ -8,7 +8,7 @@ class MP3Importer
     @path = path
   end
   
-  Dir["/path/to/search/**/*.rb"]
+  Dir["/db/mp3s/*.mp3"]
   
   def files
   
