@@ -12,11 +12,11 @@ class MP3Importer
   #"db/mp3s/*.mp3"
   
   def files
-   Dir["#{path}/*.mp3"].collect { |x| File.basename(x)}
+   @files = Dir["#{path}/*.mp3"].collect { |x| File.basename(x)}
   end
   
   def import 
-    
+    files.each
   end
   
   
