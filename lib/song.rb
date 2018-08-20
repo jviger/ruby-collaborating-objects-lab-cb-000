@@ -18,6 +18,7 @@ class Song
     song = Song.new(song_split[1])
     song.artist = song_split[0]
     @@all << song
+  end
     
   
 end
