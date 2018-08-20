@@ -19,10 +19,6 @@ class Song
     song = Song.new(song_split[1])
     song.artist_name(song_split[0])
     song
-    
-   # new_song = self.new(song)
-    #new_song.artist_name = artist
-    #new_song
   end
     
   
